@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SalaryCalculator()
+comment0.text=\r\n\ Constructor\ sets\ the\ instance\ variables.\r\n
+comment1.params=
+comment1.target=double\ getHourlyWage()
+comment1.text=\r\n\ @return\ the\ current\ wage\ per\ hour\r\n
+comment2.params=
+comment2.target=int\ getHoursWeek()
+comment2.text=\r\n\ @return\ the\ current\ hours\ per\ week\ worked\r\n
+comment3.params=hourlyWage\ hoursWeek
+comment3.target=double\ calcWeeklySalary(double,\ int)
+comment3.text=\r\n\ Calculates\ the\ salary\ in\ a\ week.\r\n\ \r\n\ @param\ hourlyWage\ the\ amount\ made\ in\ an\ hour\ of\ work\r\n\ @param\ hoursWeek\ the\ number\ of\ hours\ worked\ in\ a\ particular\ week\r\n\ @return\ the\ salary\ for\ that\ particualar\ week\r\n
+comment4.params=hourlyWage\ hoursWeek
+comment4.target=double\ calcMonthlySalary(double,\ int)
+comment4.text=\r\n\ Calculates\ the\ salary\ for\ a\ month(four\ weeks).\r\n\ \r\n\ @param\ hourlyWage\ the\ amount\ made\ in\ an\ hour\ of\ work\r\n\ @param\ hoursWeek\ the\ number\ of\ hours\ worked\ in\ a\ particular\ week\r\n\ @return\ the\ salary\ for\ four\ weeks\r\n
+comment5.params=hourlyWage\ hoursWeek
+comment5.target=double\ calcYearlySalary(double,\ int)
+comment5.text=\r\n\ Calculates\ the\ salary\ for\ a\ year(12\ months).\r\n\ \r\n\ @param\ hourlyWage\ the\ amount\ made\ in\ an\ hour\ of\ work\r\n\ @param\ hoursWeek\ the\ number\ of\ hours\ worked\ in\ a\ particular\ week\r\n\ @return\ the\ yearly\ salary\r\n
+comment6.params=moneyValue\ hours\ wage
+comment6.target=double\ timeToMakeMoney(int,\ int,\ double)
+comment6.text=\r\n\ @param\ moneyValue\ an\ amount\ of\ money\r\n\ @return\ the\ amount\ of\ time\ it\ will\ take\ to\ return\ a\ given\ amount\ of\ money.\r\n
+comment7.params=yearlySalary
+comment7.target=double\ convertToHourlyWage(double)
+comment7.text=\r\n\ Computes\ the\ hourly\ wage\ for\ a\ given\ salary\r\n\ \r\n\ @param\ yearlySalary\ the\ yearly\ salary\r\n\ @return\ an\ hourly\ wage\r\n
+numComments=8
